@@ -2,17 +2,17 @@ import { ResponsiveDialog } from "@/components/responsive-dialog";
 import { AgentForm } from "./agent-form";
 import { AgentGetOne } from "../../types";
 
-interface UpdateAgentDailogProps {
+interface UpdateAgentDialogProps {
     open: boolean;
     onOpenChange: (open: boolean) => void;
     initialValues: AgentGetOne;
 };
 
-export const UpdateAgentDailog = ({
+export const UpdateAgentDialog = ({
     open,
     onOpenChange,
     initialValues
-}: UpdateAgentDailogProps) => {
+}: UpdateAgentDialogProps) => {
     return (
         <ResponsiveDialog
         title="Edit Agent"
