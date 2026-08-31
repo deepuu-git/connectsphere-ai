@@ -86,7 +86,7 @@ export const AgentForm = ({
         resolver: zodResolver(agentsInsertSchema),
         defaultValues: {
             name: initialValues?.name ?? "",
-            instructions: initialValues?.name ?? "",
+            instructions: initialValues?.instructions ?? "",
         },
     });
 
