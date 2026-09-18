@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 import { Inter } from "next/font/google";
 import { TRPCReactProvider } from "@/trpc/client";
 import { NuqsAdapter } from "nuqs/adapters/next";

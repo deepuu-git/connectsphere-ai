@@ -12,7 +12,7 @@ import { VideoIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { useConfirm } from "@/hooks/use-confirm";
-import { UpdateAgentDailog } from "../components/update-agent-dialog";
+import { UpdateAgentDialog } from "../components/update-agent-dialog";
 
 
 interface Props {
@@ -57,7 +57,7 @@ export const AgentIdView = ({ agentId }: Props) => {
     return (
         <>
         <RemoveConfirmation />
-        <UpdateAgentDailog
+        <UpdateAgentDialog
         open={UpdateAgentDailogOpen}
         onOpenChange={setUpdateAgentDialogOpen}
         initialValues={data}

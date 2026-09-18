@@ -37,3 +37,4 @@ export const CallUI = ({ meetingName }: Props) => {
     )
 
 };
+
